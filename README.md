@@ -1,9 +1,9 @@
 # Laboratorio de Monitoreo de Redes con SNMP y Zabbix (GNS3)
 
-<img width="601" height="549" alt="imagen" src="https://github.com/user-attachments/assets/620d5f52-2cd3-4c14-a35d-36d464dcf42a" />
-
 [![Video Demostrativo del Laboratorio](https://img.youtube.com/vi/TU_ID_DE_VIDEO/0.jpg)](https://www.youtube.com/watch?v=TU_ID_DE_VIDEO)
 *Haz clic en la imagen superior para ver el video demostrativo del funcionamiento, la recolección de datos SNMP en tiempo real y el tráfico generado en las gráficas.*
+
+<img width="601" height="549" alt="imagen" src="https://github.com/user-attachments/assets/91e93891-12bd-476e-8b65-a571ff18f91b" />
 
 ---
 
