@@ -69,11 +69,17 @@ Durante el desarrollo de la topología en GNS3, se presentaron y resolvieron los
     *   Registro de la Macro `{$SNMP_COMMUNITY}` = `snmp20240886`.
     *   Vinculación de módulos Cisco.
     *   Desactivación de las peticiones en lote (Bulk Requests).
+    *   <img width="1531" height="1036" alt="imagen" src="https://github.com/user-attachments/assets/208b349f-2f85-47b2-a8d4-670ec9312e67" />
+    <img width="1522" height="882" alt="imagen" src="https://github.com/user-attachments/assets/d4ea8d7b-3d2f-435d-8399-9fa1d1206fc6" />
+
+
 
 ## 6. Políticas de Seguridad (Firewall Policies)
 
 Dado el alcance del laboratorio (LAN), las políticas de seguridad se centraron en la protección del plano de gestión (Management Plane):
 *   **Comunidad SNMP Restringida:** Se utilizó una cadena de comunidad no convencional (`snmp20240886`) para evadir los diccionarios por defecto.
+*   <img width="481" height="46" alt="imagen" src="https://github.com/user-attachments/assets/9c908833-383c-4a68-9b3f-f8b9be4c79ad" />
+
 *   **Restricción de Privilegios:** La comunidad SNMP se configuró estrictamente con permisos de **Solo Lectura (RO)**, previniendo alteraciones no autorizadas en la configuración del enrutamiento desde la plataforma Zabbix.
 
 ## 7. Validación y Pruebas Analíticas
@@ -86,15 +92,18 @@ Dado el alcance del laboratorio (LAN), las políticas de seguridad se centraron 
 ## 8. Diagramas y Evidencias Visuales
 
 ### Topología en GNS3
-*(Reemplazar con una captura de GNS3 donde se vean los nodos verdes)*
+<img width="601" height="549" alt="imagen" src="https://github.com/user-attachments/assets/25089932-ce9d-44e6-8ba6-b770c7133530" />
+
 ![Topología de GNS3](docs/img/topologia.png)
 
 ### Zabbix SNMP Verde (Disponibilidad)
-*(Reemplazar con captura de Configuration > Hosts mostrando R1 y SW1 con el SNMP verde)*
+<img width="1498" height="685" alt="imagen" src="https://github.com/user-attachments/assets/cbae1972-30fb-4fd4-ba21-0161b700779e" />
+
 ![Disponibilidad SNMP](docs/img/snmp_verde.png)
 
 ### Gráfica de Tráfico con Carga (Ping Sweep)
-*(Reemplazar con captura de la gráfica subiendo debido al Ping)*
+<img width="1525" height="649" alt="imagen" src="https://github.com/user-attachments/assets/98c0110d-14fb-4271-8ad0-b34a22e20ff6" />
+
 ![Gráfica de Tráfico de Red](docs/img/trafico_red.png)
 
 ## 9. Running Configurations Completas
